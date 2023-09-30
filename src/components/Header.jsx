@@ -1,5 +1,5 @@
 import React from 'react'
-// import Logo from "./bootstrap-logo.png";
+import Logo from "./bootstrap-logo.png";
 
 const Header = () => {
     const article = {
@@ -19,7 +19,7 @@ const Header = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12 text-center">
-                        {/* <img src={Logo} alt="Bootstrap" /> */}
+                        <img src={Logo} alt="Bootstrap" />
                         <h1>{article.title.en}</h1>
                         <p>{article.description.en}</p>
                     </div>
