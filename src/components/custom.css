@@ -1,0 +1,21 @@
+.btn-custom{
+    background-color: #FFF !important;
+    color: #0D6EFD !important;
+}
+
+.btn-custom:hover{
+    background-color: #0D6EFD !important;
+    color: #FFF !important;
+}
+input[type="file"]{
+    width: 210px;
+    color: var(--bs-blue, #0D6EFD)!important;
+    border: 1px solid var(--bs-blue, #0D6EFD)!important;
+    border-radius: 5px;
+}
+input[type="file"]::file-selector-button{
+    color: white;
+    background: var(--bs-blue, #0D6EFD)!important;
+    border: none;
+    padding: 4px;
+}
